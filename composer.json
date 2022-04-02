@@ -1,0 +1,23 @@
+{
+    "name": "familytree365/openarch",
+    "description": "This package is to search person from Openarch by using their api.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faisal Arif",
+            "email": "faial.arif@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FamilyTree365\\OpenArch\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
